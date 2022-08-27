@@ -1,0 +1,45 @@
+{
+    "MAINNET": {
+        "NAME": "SmartBCH",
+        "SYMBOL": "BCH",
+        "ID": 10000,
+        "GAS_LIMIT": 285000,
+        "API": "https://sonar.cash/api?module=account&action=tokenlist&address",
+        "BALANCE": "https://sonar.cash/api?module=account&action=tokenbalance&contractaddress=@CONTRACTADDRESS&address=@ACCOUNT",
+        "WALLET": "https://sonar.cash/api?module=account&action=balance&address=@ACCOUNT"
+    },
+    "TESTNET": {
+        "NAME": "SmartBCH Testnet",
+        "SYMBOL": "BCHT",
+        "ID": 10001,
+        "GAS_LIMIT": 285000,
+        "API": "https://testnet.sonar.cash/api?module=account&action=tokenlist&address",
+        "BALANCE": "https://testnet.sonar.cash/api?module=account&action=tokenbalance&contractaddress=@CONTRACTADDRESS&address=@ACCOUNT",
+        "WALLET": "https://testnet.sonar.cash/api?module=account&action=balance&address=@ACCOUNT"
+    },
+    "MAINDAPP": {
+        "STAKING": "0xBCb66eaa5e6Ba4EcC344fDbA631FB353231d59c0",
+        "TOKENREWARD": "0x0C79358Aa7A319dB86470e566c292a6b529449b1",
+        "NITROBOOST": "0x2cAC5cD109A926238e5a4abB3989A74b62B4193F",
+        "MARKET": "0x24Aa76d8A60768648e909c5eC2808D892fdfd8Fa",
+        "LEVELING": "0x0279A071B580C4D90ca042d48a95EDF8Bb0F85dd",
+        "SCANNER": "0x838C78e267e7b431af8BD92e09979A1567189773",
+        "NITROBCH": "0xA1716bB400DaC962054e89db4d6F79ED77A7febB"
+    },
+    "TESTDAPP": {
+        "STAKING": "0x56BfEB6f67A179D4CE3E6D9f6546dD7129e269c2",
+        "TOKENREWARD": "0xd0aD2D04d98AE22dae8448c2452E9F40163eEbf6",
+        "NITROBOOST": "0x26D0161B55051Ab1345472F2EA622B8128576E04",
+        "MARKET": "0xc1d2ad95D8a3dc4bc338157B23B13Bbcb4Ee5ecD",
+        "LEVELING": "0x9e3AD50996753B9292aa23526E902F3b96D4580B",
+        "SCANNER": "0xC4FF6D43897b02344C919FF78F1CcC5C1D97D80D",
+        "NITROBCH": "0x5F4774104878F3C34b9520C70FC0100d13354dCb"
+    },
+    "NitroBCH": {
+        "PRICE": "0.0007"
+    },
+    "JEEPNEY": {
+        "NAME": "RARITY",
+        "JSON": "/config/jeepney-rarity.json"
+    }
+}
